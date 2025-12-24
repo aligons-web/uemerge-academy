@@ -33,23 +33,37 @@ export function ProgramShowcase() {
                   </a>
                 </Button>
               </div>
-              <img 
-                src={ltnLogo} 
-                alt="Life Transformation Network" 
-                className="w-24 h-auto"
-                data-testid="img-ltn-logo"
-              />
+              <a 
+                href="https://www.skool.com/life-transformation-network-2320" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                data-testid="link-ltn-logo"
+              >
+                <img 
+                  src={ltnLogo} 
+                  alt="Life Transformation Network" 
+                  className="w-24 h-auto hover:opacity-90 transition-opacity"
+                  data-testid="img-ltn-logo"
+                />
+              </a>
             </div>
           </div>
 
           <Card className="p-6 bg-card">
             <div className="flex flex-col md:flex-row gap-6 items-start">
-              <img 
-                src={ltwCover} 
-                alt="Life Transformation Workbook" 
-                className="w-40 h-auto rounded-md shadow-lg"
-                data-testid="img-ltw-cover"
-              />
+              <a 
+                href="https://www.amazon.com/LIFE-Transformation-Intentionally-Focused-Everyday/dp/B0FBL8WTQP/ref=sr_1_1?crid=2NSWLWYX1K03&dib=eyJ2IjoiMSJ9.09NkP6lvZy6qSBavigXj_N2cQjPUelsKc9M_09fpcgY.arRoKtV3pe8WphX3HNdszvWrZsPO7Ef_-TXTxX4Pomw&dib_tag=se&keywords=life+transformation+workbook+alexander+ligons&qid=1766613400&sprefix=alexander+ligons+life+tra%2Caps%2C106&sr=8-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="link-ltw-cover"
+              >
+                <img 
+                  src={ltwCover} 
+                  alt="Life Transformation Workbook" 
+                  className="w-40 h-auto rounded-md shadow-lg hover:opacity-90 transition-opacity"
+                  data-testid="img-ltw-cover"
+                />
+              </a>
               <div>
                 <h3 
                   className="text-2xl md:text-3xl font-bold text-primary mb-2"
@@ -57,20 +71,28 @@ export function ProgramShowcase() {
                   Now Available!
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  The LT Workbook can now be purchased on Amazon.
+                  The LT Workbook can now be{" "}
+                  <a 
+                    href="https://www.amazon.com/LIFE-Transformation-Intentionally-Focused-Everyday/dp/B0FBL8WTQP/ref=sr_1_1?crid=2NSWLWYX1K03&dib=eyJ2IjoiMSJ9.09NkP6lvZy6qSBavigXj_N2cQjPUelsKc9M_09fpcgY.arRoKtV3pe8WphX3HNdszvWrZsPO7Ef_-TXTxX4Pomw&dib_tag=se&keywords=life+transformation+workbook+alexander+ligons&qid=1766613400&sprefix=alexander+ligons+life+tra%2Caps%2C106&sr=8-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary font-medium underline underline-offset-2"
+                    data-testid="link-amazon-ltw"
+                  >
+                    purchased on Amazon
+                  </a>.
                 </p>
                 <p className="text-muted-foreground mb-4">
                   Find out more about the <strong className="text-foreground">LT Workbook</strong> and join the <strong className="text-foreground">Life Transformation Network (LTN)</strong>.
                 </p>
                 <Button 
-                  variant="outline"
                   asChild
                 >
                   <a 
-                    href="https://www.amazon.com" 
+                    href="https://www.skool.com/life-transformation-network-2320" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    data-testid="button-amazon-ltw"
+                    data-testid="button-read-more-ltw"
                   >
                     READ MORE
                   </a>
