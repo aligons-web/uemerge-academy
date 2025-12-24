@@ -8,9 +8,6 @@ export function WhyUeMerge() {
     <section className="py-16 md:py-20 px-4 bg-background" data-testid="section-why-uemerge">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <p className="text-lg text-muted-foreground mb-4">
-            2026 is the year you discover your true direction.
-          </p>
           <h2 
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6"
             style={{ fontFamily: "Playfair Display, serif" }}
@@ -18,11 +15,11 @@ export function WhyUeMerge() {
           >
             Why U eMerge?
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto mb-2">
-            A pertinent question to the question above is
-          </p>
           <p className="text-foreground font-medium max-w-2xl mx-auto mb-2">
-            why not emerge? <span className="text-muted-foreground">Isn't it</span> time to move towards your LIFE Transformation?
+            Isn't it time to move towards your LIFE Transformation?
+          </p>
+          <p className="text-lg font-bold text-foreground max-w-2xl mx-auto mb-4">
+            2026 is the year you discover your true direction.
           </p>
           <Button 
             className="mt-6"
