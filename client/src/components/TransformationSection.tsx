@@ -37,11 +37,11 @@ export function TransformationSection() {
             {tags.map((tag) => (
               <div
                 key={tag.label}
-                className="flex items-center gap-3 bg-primary/10 rounded-md p-4 hover-elevate"
+                className="flex items-center gap-3 bg-primary rounded-md p-4 hover-elevate"
                 data-testid={`tag-${tag.label.toLowerCase().replace(/\s+/g, '-')}`}
               >
-                <span className="text-sm text-muted-foreground font-medium">{tag.number}.</span>
-                <span className="font-semibold text-foreground">{tag.label}</span>
+                <span className="text-sm text-white font-medium">{tag.number}.</span>
+                <span className="font-semibold text-white">{tag.label}</span>
               </div>
             ))}
           </div>
