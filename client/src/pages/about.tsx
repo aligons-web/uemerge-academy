@@ -3,6 +3,7 @@ import { MainNav } from "@/components/MainNav";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import founderPhoto from "@assets/alNewPhoto-rev_1766615385161.jpg";
 
 const jumpLinks = [
   { label: "Vision", id: "vision" },
@@ -166,12 +167,22 @@ export default function About() {
               Founder
             </h2>
             <Card className="p-8 bg-muted/30">
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong className="text-foreground">Alexander Ligons</strong> is the founder of U eMerge Academy and author of multiple transformational works including the Life Transformation Workbook and Understanding Your Path.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                With a passion for purpose-driven education and personal development, Alexander has dedicated his work to helping individuals discover their unique path and achieve meaningful transformation in their lives.
-              </p>
+              <div className="flex flex-col sm:flex-row gap-6 items-start">
+                <img 
+                  src={founderPhoto} 
+                  alt="Alexander Ligons" 
+                  className="w-40 h-auto rounded-md shadow-lg"
+                  data-testid="img-founder"
+                />
+                <div>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    <strong className="text-foreground">Alexander Ligons</strong> is the founder of U eMerge Academy and author of multiple transformational works including the Life Transformation Workbook and Understanding Your Path.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    With a passion for purpose-driven education and personal development, Alexander has dedicated his work to helping individuals discover their unique path and achieve meaningful transformation in their lives.
+                  </p>
+                </div>
+              </div>
             </Card>
           </section>
         </div>
