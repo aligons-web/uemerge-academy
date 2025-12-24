@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 import ladywritingVideo from "@assets/ladywriting_1766601258373.mp4";
 import buildingfoundationVideo from "@assets/buildingfoundation_1766601258372.mp4";
 import scenicforestVideo from "@assets/scenicforest_1766601258374.mp4";
@@ -98,9 +99,11 @@ export function HeroSlider() {
               <Button 
                 className="mt-6"
                 size="lg"
-                data-testid="button-read-more-hero"
+                asChild
               >
-                Read More
+                <Link href="/about" data-testid="button-read-more-hero">
+                  Read More
+                </Link>
               </Button>
             </div>
           </div>
