@@ -1,8 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 
 const tags = [
-  { label: "Feeling stuck", number: "02" },
-  { label: "Desiring more", number: "01" },
+  { label: "Feeling stuck", number: "01" },
+  { label: "Desiring more", number: "02" },
   { label: "Seeking direction", number: "03" },
 ];
 
@@ -14,17 +14,23 @@ export function TransformationSection() {
           <div className="lg:col-span-2">
             <h2 
               className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6 leading-tight"
-              style={{ fontFamily: "Playfair Display, serif" }}
+              style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
               data-testid="text-transformation-headline"
             >
               You did everything right—yet something still feels missing.
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            <h2 
+              className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6"
+              style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
+            >
               If you're stuck between who you are and who you know you're meant to become, this is your sign.
-            </p>
-            <p className="text-foreground font-medium text-lg">
+            </h2>
+            <h2 
+              className="text-lg md:text-xl text-foreground"
+              style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
+            >
               Let go of doubt. Step forward with intention.
-            </p>
+            </h2>
           </div>
           
           <div className="flex flex-col gap-3">
