@@ -53,7 +53,6 @@ export function ProgramShowcase() {
               <div>
                 <h3 
                   className="text-2xl md:text-3xl font-bold text-primary mb-2"
-                  style={{ fontFamily: "Playfair Display, serif" }}
                 >
                   Now Available!
                 </h3>
