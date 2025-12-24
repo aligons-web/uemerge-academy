@@ -1,0 +1,104 @@
+Use these files as references for the website design, 
+referencepage1.jpg
+referencepage2.jpg
+
+On the Home page include,
+From the attached image create a purple navigation bar for social media icons with links to 
+facebook, https://www.facebook.com/alexander.ligons
+Instagram, https://www.instagram.com/alexanderligons/
+Linkedin, https://www.linkedin.com/in/alexanderligons/
+x, https://x.com/atligons
+tiktok, https://www.tiktok.com/@alexanderligons
+youtube, https://www.youtube.com/@alexanderligons
+In the main navigation, second navigation section referenced in the website image) include the following links, About, Products, LTN Community, T Builder, Resources
+About page that links to an about page with the content indicated for the page
+Products, products page
+LTN Community, https://www.skool.com/life-transformation-network-2320/classroom
+T Builder, https://transformationbuilder.com
+Resources, to a resources page
+Create an interactive slider with the following content as referenced in the files for the website design
+
+interactive elements for the home page,
+Include a javascript 3-slide slider with the following statements in each slider 
+“Enlightened and empowered with focus”
+With the lady writing as the background video clip, ladywriting.mp4
+
+“Build upon a solid foundation for your future”
+With the landscape video as the background video clip, buildingfoundation.mp4
+
+“Start your journey now”
+With the landscape video as the background video clip, scenicforest.mp4
+The slider plays automatically or can be toggled with transparent arrows that are purple
+
+Content for the home page is below
+You did everything right—yet something still feels missing.
+If you’re stuck between who you are and who you know you’re meant to become, this is your sign.
+Let go of doubt. Step forward with intention.
+Include bold statements, 
+Feeling stuck
+Desiring more
+Seeking direction
+
+U eMerge Academy presents a life transformation program with the Life Transformation logo, use the ltnlogopng file
+This is an online learning environment to complete the LT Workbook to launch the new version of you!  
+  
+Include the LIFE Transformation workbook image Use the ltwCover file
+Now Available!
+The LT Workbook can now be purchased on Amazon.
+ 
+Find out more about the LT Workbook and join the Life Transformation Network (LTN).
+READ MORE
+Become part of a group of like-minded individuals who are pursuing a bright future! 
+
+2026 is the year you discover your true direction.
+Why U eMerge?
+A pertinent question to the question above is why not emerge? Isn't it time to move towards your LIFE Transformation? 
+READ MORE
+
+Include book cover of Understanding Your Path, use the uypbkcvr2025 file
+Revised
+Edition
+Released!
+Get your copy
+on Amazon
+
+
+For the About U eMerge Academy
+Create an internal link to the Vision section
+Create an internal link to the  Mission section
+Create an internal link to the  Founder section
+Include the information below on the about page
+Unique Emerge (U eMerge, LLC), a Purpose-Driven Learning Academy, that is a comprehensive online educational platform designed to equip individuals with knowledge and skills for a purposeful life, combining spiritual growth, practical skills, and personal development. It is a "unique emerge" experience. You will uniquely eMerge (U eMerge). This academy offers a diverse range of courses to help students navigate their faith, enhance their professional capabilities, and contribute in meaningful ways to their communities.
+
+Educational Approach
+The academy’s educational approach is rooted in Purpose Driven Learning (PDL), which focuses on unlocking each learner’s inner strengths by connecting academic studies to real-world applications. This method transforms learning from pedantic to powerful, ensuring that lessons are personalized and relevant to students' lives. The goal is to create life-long learners who fuel their future passionately with knowledge, preparing them for both college or career and life success.
+
+Supportive Community
+The Purpose-Driven Learning Academy provides a supportive community where students can explore their identities, connect with others empathetically, and clarify their purpose. This environment fosters a sense of belonging and encourages students to engage deeply with their learning and personal development.
+
+Create a link to the LTN Transformation Network community using this link
+https://www.skool.com/life-transformation-network-2320/classroom
+
+By offering a diverse curriculum that integrates faith, practical skills, and personal growth, the Purpose-Driven Learning Academy prepares individuals to lead purposeful lives, make meaningful contributions to their communities, and effectively navigate both spiritual and professional paths.
+ 
+Vision
+The vision of The Purpose-Driven Learning Academy is to provide a high-quality comprehensive online educational platform designed to equip individuals with knowledge and skills for a purposeful life, combining spiritual growth, practical skills, and personal development knowledge in an innovative and creative approach through technology. This academy offers a diverse range of courses to help students navigate their faith, enhance their professional capabilities, and contribute meaningfully to their communities.
+
+The Purpose-Driven Learning Academy aims to be a transformative online educational platform that empowers individuals to discover and pursue their unique purpose in life. We envision a community of lifelong learners who integrate spiritual growth, practical skills, and personal development to make meaningful contributions to their communities and the world at large.
+
+Mission and Philosophy
+The Purpose-Driven Learning Academy is dedicated to fostering a sense of purpose in its students, aligning with the idea that purpose is a stable intention that is meaningful to oneself and consequential for the world. This approach is inspired by the concept of Purpose Learning, which emphasizes the integration of thinking, feeling, and doing in education. By focusing on these elements, the academy aims to develop deeper learners who are happier, healthier, and better equipped to manage stress and contribute to the common good of the areas of influence.
+
+Mission
+Our mission is to provide a comprehensive, purpose-driven educational experience that:
+1.	Fosters personal growth: We help students explore their identities, clarify their values, and discover their God-given purpose through a combination of biblical studies, personal development courses, and practical skill-building.
+2.	Integrates thinking, being, and doing that leads to having: We emphasize the connection between learning, emotional intelligence, and real-world application, creating a holistic educational approach that includes biblical perspectives for a fulfilling life.
+3.	Develops future-ready skills: We equip students with essential skills in leadership, technology, communication, and business administration to thrive in an ever-changing world.
+4.	Cultivates spiritual foundations: We provide a strong foundation in biblical knowledge and interpretation, helping students navigate their faith journey and apply spiritual principles to daily life.
+5.	Promotes purposeful living: We guide students to develop a "stable intention that is meaningful to self and consequential for the world," encouraging them to live with intention and make a positive impact.
+6.	Enhances well-being: We strive to create happier, healthier learners who are better equipped to manage stress and contribute to the common good.
+7.	Fosters community and belonging: We create a supportive online environment where students can connect with like-minded individuals, share experiences, and grow together.
+8.	Prepares for life success: We focus on creating life-long learners who can fuel their future passionately with knowledge, preparing them for both career and life success.
+
+By fulfilling this mission, the Purpose-Driven Learning Academy seeks to transform education from pointless to powerful, ensuring that lessons are personalized, relevant, and deeply connected to students' lives and the world around them. Our ultimate goal is to empower individuals to lead purposeful lives, make meaningful contributions to their communities, and effectively navigate both spiritual and professional paths.
+
