@@ -33,26 +33,29 @@ export function WhyUeMerge() {
 
         <Card className="max-w-xl mx-auto p-6 bg-card">
           <div className="flex flex-col sm:flex-row gap-6 items-start">
-            <img 
-              src={uypCover} 
-              alt="Understanding Your Path Book" 
-              className="w-32 h-auto rounded-md shadow-lg"
-              data-testid="img-uyp-cover"
-            />
+            <a 
+              href="https://www.amazon.com/Understanding-Your-Path-Discovering-purpose/dp/B0F6DG44HV/ref=sr_1_1?crid=3O9ENLJPG3VM7&dib=eyJ2IjoiMSJ9.wVRIga8-ojyZuY7OWdGifA.pTNl8r2IEPZNLy2Id9n1xXSE0-bL2wymaOEu8o0_8Hw&dib_tag=se&keywords=alexander+ligons+understanding+your+path&qid=1766613285&sprefix=understanding+your+path+%2Caps%2C115&sr=8-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="link-uyp-cover"
+            >
+              <img 
+                src={uypCover} 
+                alt="Understanding Your Path Book" 
+                className="w-32 h-auto rounded-md shadow-lg hover:opacity-90 transition-opacity"
+                data-testid="img-uyp-cover"
+              />
+            </a>
             <div>
               <h3 
-                className="text-2xl md:text-3xl font-bold text-primary mb-1"
-                style={{ fontFamily: "Playfair Display, serif" }}
+                className="text-2xl md:text-3xl font-bold text-primary mb-4"
               >
                 Revised Edition
               </h3>
-              <p className="text-destructive font-semibold text-lg mb-4">
-                Released!
-              </p>
               <p className="text-muted-foreground">
                 Get your copy on{" "}
                 <a 
-                  href="https://www.amazon.com" 
+                  href="https://www.amazon.com/Understanding-Your-Path-Discovering-purpose/dp/B0F6DG44HV/ref=sr_1_1?crid=3O9ENLJPG3VM7&dib=eyJ2IjoiMSJ9.wVRIga8-ojyZuY7OWdGifA.pTNl8r2IEPZNLy2Id9n1xXSE0-bL2wymaOEu8o0_8Hw&dib_tag=se&keywords=alexander+ligons+understanding+your+path&qid=1766613285&sprefix=understanding+your+path+%2Caps%2C115&sr=8-1"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary font-medium underline underline-offset-2"
