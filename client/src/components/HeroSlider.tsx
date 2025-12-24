@@ -83,7 +83,7 @@ export function HeroSlider() {
             <source src={slide.video} type="video/mp4" />
           </video>
           
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60" />
+          <div className="absolute inset-0 bg-black/50" />
           
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="max-w-3xl mx-auto px-6 text-center">
