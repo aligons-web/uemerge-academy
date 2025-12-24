@@ -9,53 +9,36 @@ export function ProgramShowcase() {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div>
-            <h2 
-              className="text-2xl md:text-3xl font-bold text-foreground mb-4"
-              style={{ fontFamily: "Playfair Display, serif" }}
-            >
-              Join our Community
-            </h2>
-            <p className="text-muted-foreground mb-4">
-              Become part of a group of like-minded individuals who are pursuing a bright future!
-            </p>
-            <Button 
-              className="mb-8"
-              asChild
-            >
-              <a 
-                href="https://www.skool.com/life-transformation-network-2320/classroom" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                data-testid="button-join-community"
-              >
-                JOIN
-              </a>
-            </Button>
-
-            <div className="mt-8">
-              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-2">
-                U eMerge Academy presents the LTN Program
-              </h3>
-              <div className="flex items-start gap-4 mt-4">
-                <div className="flex-1">
-                  <p className="text-muted-foreground">
-                    This is an online learning environment to complete the <strong className="text-foreground">LT Workbook</strong> to launch the new version of you!
-                  </p>
-                  <Button 
-                    variant="outline" 
-                    className="mt-4"
-                    data-testid="button-read-more-ltn"
+            <h3 className="text-xl md:text-2xl font-bold text-foreground mb-2">
+              U eMerge Academy presents the LTN Program
+            </h3>
+            <div className="flex items-start gap-4 mt-4">
+              <div className="flex-1">
+                <p className="text-muted-foreground mb-6">
+                  This is an online learning environment to complete the <strong className="text-foreground">LT Workbook</strong> to launch the new version of you!
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  Become part of a community of like-minded individuals who are pursuing a bright future!
+                </p>
+                <Button 
+                  asChild
+                >
+                  <a 
+                    href="https://www.skool.com/life-transformation-network-2320/classroom" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    data-testid="button-join-community"
                   >
-                    READ MORE
-                  </Button>
-                </div>
-                <img 
-                  src={ltnLogo} 
-                  alt="Life Transformation Network" 
-                  className="w-24 h-auto"
-                  data-testid="img-ltn-logo"
-                />
+                    Join
+                  </a>
+                </Button>
               </div>
+              <img 
+                src={ltnLogo} 
+                alt="Life Transformation Network" 
+                className="w-24 h-auto"
+                data-testid="img-ltn-logo"
+              />
             </div>
           </div>
 
