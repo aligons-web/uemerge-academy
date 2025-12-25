@@ -31,10 +31,10 @@ export function HeroSlider() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      goToNext();
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 6000);
     return () => clearInterval(interval);
-  }, [currentSlide]);
+  }, []);
 
   useEffect(() => {
     videoRefs.current.forEach((video, index) => {
