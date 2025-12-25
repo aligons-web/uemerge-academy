@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import logoImage from "@assets/logoonweb_1766601258373.png";
 
 const navLinks = [
-  { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Products", href: "/products" },
   { label: "LTN Community", href: "https://www.skool.com/life-transformation-network-2320/classroom", external: true },
@@ -37,7 +36,7 @@ export function MainNav() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                  className="text-base font-bold text-foreground hover:text-primary transition-colors"
                   data-testid={`link-nav-${link.label.toLowerCase().replace(/\s+/g, '-')}`}
                 >
                   {link.label}
@@ -46,7 +45,7 @@ export function MainNav() {
                 <Link
                   key={link.label}
                   href={link.href}
-                  className={`text-sm font-medium transition-colors ${
+                  className={`text-base font-bold transition-colors ${
                     location === link.href 
                       ? "text-primary" 
                       : "text-foreground hover:text-primary"
@@ -80,7 +79,7 @@ export function MainNav() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                    className="text-base font-bold text-foreground hover:text-primary transition-colors py-2"
                     onClick={() => setMobileMenuOpen(false)}
                     data-testid={`link-nav-mobile-${link.label.toLowerCase().replace(/\s+/g, '-')}`}
                   >
@@ -90,7 +89,7 @@ export function MainNav() {
                   <Link
                     key={link.label}
                     href={link.href}
-                    className={`text-sm font-medium transition-colors py-2 ${
+                    className={`text-base font-bold transition-colors py-2 ${
                       location === link.href 
                         ? "text-primary" 
                         : "text-foreground hover:text-primary"
