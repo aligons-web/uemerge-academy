@@ -90,7 +90,7 @@ export function HeroSlider() {
               <div className="bg-white/95 backdrop-blur-sm rounded-lg px-8 py-6 shadow-xl">
                 <h1 
                   className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-foreground leading-tight"
-                  style={{ fontFamily: "Arial Black, Arial, sans-serif", fontWeight: 900 }}
+                  style={{ fontFamily: "Arial Black, Arial, sans-serif", fontWeight: 900, letterSpacing: "-0.02em" }}
                   data-testid={`text-slide-${index + 1}`}
                 >
                   {slide.text}
