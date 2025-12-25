@@ -17,7 +17,7 @@ const products = [
     image: ltwCover,
     badge: "Now Available",
     cta: "Purchase on Amazon",
-    link: "https://www.amazon.com",
+    link: "https://www.amazon.com/LIFE-Transformation-Intentionally-Focused-Everyday/dp/B0FBL8WTQP/ref=sr_1_1?crid=2NSWLWYX1K03&dib=eyJ2IjoiMSJ9.09NkP6lvZy6qSBavigXj_N2cQjPUelsKc9M_09fpcgY.arRoKtV3pe8WphX3HNdszvWrZsPO7Ef_-TXTxX4Pomw&dib_tag=se&keywords=life+transformation+workbook+alexander+ligons&qid=1766613400&sprefix=alexander+ligons+life+tra%2Caps%2C106&sr=8-1",
   },
   {
     id: "uyp",
@@ -26,7 +26,7 @@ const products = [
     image: uypCover,
     badge: "Revised Edition",
     cta: "Get on Amazon",
-    link: "https://www.amazon.com",
+    link: "https://www.amazon.com/Understanding-Your-Path-Discovering-purpose/dp/B0F6DG44HV/ref=sr_1_1?crid=3O9ENLJPG3VM7&dib=eyJ2IjoiMSJ9.wVRIga8-ojyZuY7OWdGifA.pTNl8r2IEPZNLy2Id9n1xXSE0-bL2wymaOEu8o0_8Hw&dib_tag=se&keywords=alexander+ligons+understanding+your+path&qid=1766613285&sprefix=understanding+your+path+%2Caps%2C115&sr=8-1",
   },
 ];
 
@@ -57,12 +57,19 @@ export default function Products() {
                 <div className="p-6">
                   <div className="flex flex-col sm:flex-row gap-6">
                     <div className="flex-shrink-0">
-                      <img 
-                        src={product.image} 
-                        alt={product.title}
-                        className="w-40 h-auto rounded-md shadow-lg mx-auto sm:mx-0"
-                        data-testid={`img-product-${product.id}`}
-                      />
+                      <a 
+                        href={product.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-testid={`link-product-cover-${product.id}`}
+                      >
+                        <img 
+                          src={product.image} 
+                          alt={product.title}
+                          className="w-40 h-auto rounded-md shadow-lg mx-auto sm:mx-0 hover:opacity-90 transition-opacity"
+                          data-testid={`img-product-${product.id}`}
+                        />
+                      </a>
                     </div>
                     <div className="flex-1">
                       <div className="mb-3">
