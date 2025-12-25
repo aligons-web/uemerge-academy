@@ -20,7 +20,7 @@ export function TransformationSection() {
               You did everything right—yet something still feels missing.
             </h2>
             <h2 
-              className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6"
+              className="text-lg md:text-xl text-black dark:text-black leading-relaxed mb-6"
               style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
             >
               If you're stuck between who you are and who you know you're meant to become, this is your sign.
