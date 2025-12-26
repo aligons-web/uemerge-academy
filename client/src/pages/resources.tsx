@@ -3,12 +3,12 @@ import { MainNav } from "@/components/MainNav";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ExternalLink, BookOpen, Users, Compass, GraduationCap } from "lucide-react";
+import { ExternalLink, BookOpen, Users, Compass, GraduationCap, Video, FileText, Lightbulb, BookOpenCheck } from "lucide-react";
 
 const resources = [
   {
     id: "ltn-community",
-    title: "Life Transformation Network",
+    title: "Connect with the LIFE Transformation Network",
     description: "Join our online community of like-minded individuals pursuing personal growth and transformation.",
     icon: Users,
     link: "https://www.skool.com/life-transformation-network-2320/classroom",
@@ -16,7 +16,7 @@ const resources = [
   },
   {
     id: "t-builder",
-    title: "Transformation Builder",
+    title: "Utilize the Transformation Builder",
     description: "Access tools and frameworks to build your personal transformation journey step by step.",
     icon: Compass,
     link: "https://transformationbuilder.com",
@@ -24,19 +24,55 @@ const resources = [
   },
   {
     id: "ltw-amazon",
-    title: "Life Transformation Workbook",
+    title: "Obtain the LIFE Transformation Workbook",
     description: "Get your copy of the LT Workbook on Amazon and start your transformation journey today.",
     icon: BookOpen,
-    link: "https://www.amazon.com",
+    link: "https://www.amazon.com/LIFE-Transformation-Intentionally-Focused-Everyday/dp/B0FBL8WTQP/ref=sr_1_1?crid=2NSWLWYX1K03&dib=eyJ2IjoiMSJ9.09NkP6lvZy6qSBavigXj_N2cQjPUelsKc9M_09fpcgY.arRoKtV3pe8WphX3HNdszvWrZsPO7Ef_-TXTxX4Pomw&dib_tag=se&keywords=life+transformation+workbook+alexander+ligons&qid=1766613400&sprefix=alexander+ligons+life+tra%2Caps%2C106&sr=8-1",
     cta: "Buy on Amazon",
   },
   {
     id: "academy",
-    title: "Purpose-Driven Learning",
+    title: "Apply Purpose-Driven Learning",
     description: "Learn about our educational approach and how Purpose Driven Learning can unlock your potential.",
     icon: GraduationCap,
     link: "/about",
     cta: "Learn More",
+    internal: true,
+  },
+  {
+    id: "free-videos",
+    title: "Free Videos",
+    description: "Watch free video content to learn transformational principles and techniques.",
+    icon: Video,
+    link: "#",
+    cta: "Coming Soon",
+    internal: true,
+  },
+  {
+    id: "free-files",
+    title: "Free Files",
+    description: "Download free resources, worksheets, and templates to support your journey.",
+    icon: FileText,
+    link: "#",
+    cta: "Coming Soon",
+    internal: true,
+  },
+  {
+    id: "free-tips",
+    title: "Free Tips",
+    description: "Get practical tips and advice for your personal transformation and growth.",
+    icon: Lightbulb,
+    link: "#",
+    cta: "Coming Soon",
+    internal: true,
+  },
+  {
+    id: "free-book-content",
+    title: "Free Book Content",
+    description: "Access free excerpts and sample chapters from our transformational books.",
+    icon: BookOpenCheck,
+    link: "#",
+    cta: "Coming Soon",
     internal: true,
   },
 ];
