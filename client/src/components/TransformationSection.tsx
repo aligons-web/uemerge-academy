@@ -23,7 +23,7 @@ export function TransformationSection() {
               className="text-lg md:text-xl text-black dark:text-black leading-relaxed mb-6"
               style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
             >
-              If you're stuck between who you are and who you know you're meant to become, this is your sign.
+              If you're stuck between who you are and who you know you're meant to become, this is your time to take action!
             </h2>
             <h2 
               className="text-lg md:text-xl text-foreground"
