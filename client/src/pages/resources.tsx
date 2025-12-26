@@ -138,7 +138,7 @@ export default function Resources() {
             ))}
           </div>
 
-          <Card className="mt-16 p-8 bg-primary text-primary-foreground">
+          <Card className="mt-16 p-8" style={{ backgroundColor: "#DCDCDC" }}>
             <div className="text-center max-w-2xl mx-auto">
               <h2 
                 className="text-2xl md:text-3xl font-bold mb-4"
@@ -146,7 +146,7 @@ export default function Resources() {
               >
                 Ready to Begin Your Transformation?
               </h2>
-              <p className="text-primary-foreground/80 mb-6">
+              <p className="text-foreground/80 mb-6">
                 Take the first step towards discovering your true purpose and unlocking your potential.
               </p>
               <Button 
