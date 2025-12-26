@@ -138,7 +138,7 @@ export default function Resources() {
             ))}
           </div>
 
-          <Card className="mt-16 p-8" style={{ backgroundColor: "#DCDCDC" }}>
+          <Card className="mt-16 p-8 bg-accent">
             <div className="text-center max-w-2xl mx-auto">
               <h2 
                 className="text-2xl md:text-3xl font-bold mb-4"
