@@ -146,13 +146,13 @@ export default function Resources() {
               >
                 Ready to Begin Your Transformation?
               </h2>
-              <p className="text-foreground/80 mb-6">
+              <p className="text-lg font-bold text-foreground mb-6">
                 Take the first step towards discovering your true purpose and unlocking your potential.
               </p>
               <Button 
-                variant="secondary"
                 size="lg"
                 asChild
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
                 <a 
                   href="https://www.skool.com/life-transformation-network-2320/classroom" 
