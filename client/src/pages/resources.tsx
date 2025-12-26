@@ -24,7 +24,7 @@ const resources = [
   },
   {
     id: "ltw-amazon",
-    title: "Obtain the LIFE Transformation Workbook",
+    title: "Obtain the LT Workbook",
     description: "Get your copy of the LT Workbook on Amazon and start your transformation journey today.",
     icon: BookOpen,
     link: "https://www.amazon.com/LIFE-Transformation-Intentionally-Focused-Everyday/dp/B0FBL8WTQP/ref=sr_1_1?crid=2NSWLWYX1K03&dib=eyJ2IjoiMSJ9.09NkP6lvZy6qSBavigXj_N2cQjPUelsKc9M_09fpcgY.arRoKtV3pe8WphX3HNdszvWrZsPO7Ef_-TXTxX4Pomw&dib_tag=se&keywords=life+transformation+workbook+alexander+ligons&qid=1766613400&sprefix=alexander+ligons+life+tra%2Caps%2C106&sr=8-1",
