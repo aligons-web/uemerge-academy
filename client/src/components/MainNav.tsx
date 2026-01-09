@@ -8,7 +8,7 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Products", href: "/products" },
   { label: "LTN Community", href: "https://www.skool.com/life-transformation-network-2320/classroom", external: true },
-  { label: "T Builder", href: "https://transformationbuilder.com", external: true },
+  { label: "T Builder", href: "https://www.transformationbuilder.com", external: true },
   { label: "Resources", href: "/resources" },
 ];
 

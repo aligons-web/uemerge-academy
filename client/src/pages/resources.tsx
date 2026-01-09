@@ -19,7 +19,7 @@ const resources = [
     title: "Utilize the Transformation Builder",
     description: "Access tools and frameworks to build your personal transformation journey step by step.",
     icon: Compass,
-    link: "https://transformationbuilder.com",
+    link: "https://www.transformationbuilder.com",
     cta: "Explore T Builder",
   },
   {
