@@ -64,7 +64,7 @@ export function HeroSlider() {
   };
 
   return (
-    <div className="relative h-[22.5vh] min-h-[200px] overflow-hidden" data-testid="hero-slider">
+    <div className="relative h-[90vh] min-h-[500px] overflow-hidden" data-testid="hero-slider">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
