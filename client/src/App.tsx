@@ -9,6 +9,7 @@ import About from "@/pages/about";
 import Products from "@/pages/products";
 import Resources from "@/pages/resources";
 import ChallengeSignup from "@/pages/ChallengeSignup";
+import ThankYou from "@/pages/ThankYou";
 
 function Router() {
   return (
