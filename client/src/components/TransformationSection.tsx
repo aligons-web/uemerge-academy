@@ -1,4 +1,6 @@
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 const tags = [
   { label: "Feeling stuck", number: "01" },
@@ -14,23 +16,26 @@ export function TransformationSection() {
           <div className="lg:col-span-2">
             <h2 
               className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6 leading-tight"
-              style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "Verdana, sans-serif", fontWeight: 700 }}
               data-testid="text-transformation-headline"
             >
               You did everything right—yet something still feels missing.
             </h2>
             <h2 
               className="text-lg md:text-xl text-black dark:text-black leading-relaxed mb-6"
-              style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "Verdana, sans-serif", fontWeight: 700 }}
             >
               If you're stuck between who you are and who you know you're meant to become, this is your time to take action!
             </h2>
             <h2 
-              className="text-lg md:text-xl text-foreground"
-              style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}
+              className="text-lg md:text-xl text-foreground mb-6"
+              style={{ fontFamily: "Verdana, sans-serif", fontWeight: 700 }}
             >
               Let go of doubt. Step forward with intention.
             </h2>
+            <Button asChild size="lg" data-testid="button-challenge-signup">
+              <Link href="/challenge-signup">3-Day Challenge Sign-Up</Link>
+            </Button>
           </div>
           
           <div className="flex flex-col gap-3">
