@@ -1,7 +1,6 @@
 import { SocialBar } from "@/components/SocialBar";
 import { MainNav } from "@/components/MainNav";
 import { Footer } from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 
 export default function ChallengeSignup() {
   return (
@@ -16,49 +15,25 @@ export default function ChallengeSignup() {
             style={{ fontFamily: "Playfair Display, serif" }}
             data-testid="text-challenge-title"
           >
-            Thank you for signing up for the 3-Day Challenge
+            3-Day Challenge Sign-up
           </h1>
+          <iframe
+            title="3-Day Challenge Signup"
+            width="540"
+            height="305"
+            src="https://786bb9df.sibforms.com/serve/MUIFABPJ7sL_tcsdYF40O_tj0Xexk66kg5gYWZJsoOFPPR_zdKpFOqwGjmiyurtwSnBBAVAkHlm2tNzqhyxKjd4_xgFSlH7q1jQcFnhS4WsGdYQAF65oyYOLptFc3moHbBahfemKYO0a-u05ElTtNevEzX3U_BvcjYDmv8G46I6Sgv9VMy_IWFz71awXnPVPj64ivGrc0jgsfBcOlw=="
+            frameBorder="0"
+            scrolling="auto"
+            allowFullScreen
+            style={{
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+              maxWidth: "100%",
+            }}
+      
+          />
 
-          <h2 
-            className="text-2xl md:text-3xl font-bold text-center mb-6"
-            style={{ fontFamily: "Playfair Display, serif" }}
-          >
-            Join the Community!
-          </h2>
-
-          <h3 
-            className="text-xl md:text-2xl font-semibold mb-4"
-            style={{ fontFamily: "Playfair Display, serif" }}
-          >
-            LIFE Transformation Network (LTN) Community on Skool
-          </h3>
-
-          <p className="text-foreground/80 mb-6 leading-relaxed">
-            The LIFE Transformation Network (LTN) is a purpose-driven community for people who are ready to grow, reset, and move forward with intention. Inside, you'll connect with others on the same journey, get encouragement, accountability, and practical guidance to help you stay consistent, build momentum, and transform your life one step at a time.
-          </p>
-
-          <div className="mb-12">
-            <Button asChild size="lg" data-testid="button-join-ltn">
-              <a 
-                href="https://www.skool.com/life-transformation-network-2320" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                Join the LTN Community
-              </a>
-            </Button>
-          </div>
-
-          <h2 
-            className="text-2xl md:text-3xl font-bold mb-6"
-            style={{ fontFamily: "Playfair Display, serif" }}
-          >
-            LIFE Transformation Web App — Founders Program (Coming Soon)
-          </h2>
-
-          <p className="text-foreground/80 leading-relaxed">
-            The LIFE Transformation Web App Founders Program is a limited early-access opportunity for those who want to be first in line when the platform launches. Founders will receive exclusive benefits, early feature access, and special founder-level perks as the app rolls out—helping you turn your purpose into a clear plan with structured steps, tools, and progress tracking. Coming soon!
-          </p>
         </div>
       </main>
       
