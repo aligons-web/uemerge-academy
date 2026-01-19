@@ -31,7 +31,6 @@ export default function ChallengeSignup() {
               marginRight: "auto",
               maxWidth: "100%",
             }}
-      
           />
 
         </div>
