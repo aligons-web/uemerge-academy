@@ -19,7 +19,7 @@ function Router() {
       <Route path="/products" component={Products} />
       <Route path="/resources" component={Resources} />
       <Route path="/challenge-signup" component={ChallengeSignup} />
-      <Route path="/thank-you" component={ThankYou} />  {/* Is this line there? */}
+      <Route path="/thank-you" component={ThankYou} />
       <Route component={NotFound} />
     </Switch>
   );
