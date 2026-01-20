@@ -16,25 +16,25 @@ export function TransformationSection() {
           <div className="lg:col-span-2">
             <h2 
               className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6 leading-tight"
-              style={{ fontFamily: "Verdana, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 700 }}
               data-testid="text-transformation-headline"
             >
               You did everything right—yet something still feels missing.
             </h2>
             <h2 
               className="text-lg md:text-xl text-black dark:text-black leading-relaxed mb-6"
-              style={{ fontFamily: "Verdana, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 700 }}
             >
               If you're stuck between who you are and who you know you're meant to become, this is your time to take action!
             </h2>
             <h2 
               className="text-lg md:text-xl text-foreground mb-6"
-              style={{ fontFamily: "Verdana, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 700 }}
             >
               Let go of doubt. Step forward with intention.
             </h2>
             <Button asChild size="lg" data-testid="button-challenge-signup">
-              <Link href="/challenge-signup">3-Day Challenge Sign-Up</Link>
+              <a href="https://786bb9df.sibforms.com/serve/MUIFABPJ7sL_tcsdYF40O_tj0Xexk66kg5gYWZJsoOFPPR_zdKpFOqwGjmiyurtwSnBBAVAkHlm2tNzqhyxKjd4_xgFSlH7q1jQcFnhS4WsGdYQAF65oyYOLptFc3moHbBahfemKYO0a-u05ElTtNevEzX3U_BvcjYDmv8G46I6Sgv9VMy_IWFz71awXnPVPj64ivGrc0jgsfBcOlw==" target="_blank" rel="noopener noreferrer">3-Day Challenge Sign-Up</a>
             </Button>
           </div>
           
