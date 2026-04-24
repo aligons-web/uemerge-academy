@@ -124,7 +124,7 @@ export default function Products() {
                     Join our online learning environment to complete the LT Workbook and connect with a community of like-minded individuals pursuing transformation.
                   </p>
                   <p>
-                    For a limited time, be part of a growing community of purpose-driven learners. You will learn how to live a purposeful life. You will become empowered through avenues to grow and develop your purpose in ministry, business, and life endeavors.
+                    For a limited time, become part of a growing community of purpose-driven learners. You will learn how to live a purposeful life. You will become empowered to grow and develop for your purpose in ministry, business, and other life endeavors.
                   </p>
                   <p>
                     <strong className="text-foreground">You will learn:</strong>
