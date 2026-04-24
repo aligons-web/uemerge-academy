@@ -139,32 +139,35 @@ export default function Products() {
                     <li>Utilize tools to become a better you, an empowered you, and a purposeful you</li>
                   </ul>
                   <p>
-                    <strong className="text-foreground">Enroll now introductory offer.</strong> We will meet twice a month for an hour and a half filled sessions to help you grow and develop your purpose.
+                    <strong className="text-foreground">Enroll now in the introductory offer!</strong> We will meet twice a month for an hour and a half filled sessions to help you grow and develop your purpose.
                   </p>
-                  <p>
+                </div>
+                <div className="flex flex-wrap gap-4">
+                  <Button asChild>
                     <a
                       href="https://buy.stripe.com/9B628r0dt3yDg4cfUL8bS03"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-bold text-primary underline underline-offset-2 hover:text-primary/80"
-                      data-testid="link-get-started-ltn"
+                      className="inline-flex items-center gap-2"
+                      data-testid="button-get-started-ltn"
                     >
-                      Click here to get started.
+                      Click Here to Get Started
+                      <ExternalLink className="w-4 h-4" />
                     </a>
-                  </p>
+                  </Button>
+                  <Button asChild>
+                    <a 
+                      href="https://www.skool.com/life-transformation-network-2320/classroom" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2"
+                      data-testid="button-join-ltn-products"
+                    >
+                      Join the Community
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                  </Button>
                 </div>
-                <Button asChild>
-                  <a 
-                    href="https://www.skool.com/life-transformation-network-2320/classroom" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2"
-                    data-testid="button-join-ltn-products"
-                  >
-                    Join the Community
-                    <ExternalLink className="w-4 h-4" />
-                  </a>
-                </Button>
               </div>
             </div>
           </Card>
