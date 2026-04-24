@@ -119,9 +119,40 @@ export default function Products() {
                 >
                   LTN Program
                 </h2>
-                <p className="text-muted-foreground mb-6">
-                  Join our online learning environment to complete the LT Workbook and connect with a community of like-minded individuals pursuing transformation.
-                </p>
+                <div className="text-muted-foreground mb-6 space-y-4 text-left">
+                  <p>
+                    Join our online learning environment to complete the LT Workbook and connect with a community of like-minded individuals pursuing transformation.
+                  </p>
+                  <p>
+                    For a limited time, be part of a growing community of purpose-driven learners. You will learn how to live a purposeful life. You will become empowered through avenues to grow and develop your purpose in ministry, business, and life endeavors.
+                  </p>
+                  <p>
+                    <strong className="text-foreground">You will learn:</strong>
+                  </p>
+                  <ul className="list-disc list-inside space-y-1 pl-2">
+                    <li>Build a business</li>
+                    <li>Build a ministry</li>
+                    <li>Develop AI skills</li>
+                    <li>Learn paths for wealth creation</li>
+                    <li>Learn from others</li>
+                    <li>Take steps for a productive life</li>
+                    <li>Utilize tools to become a better you, an empowered you, and a purposeful you</li>
+                  </ul>
+                  <p>
+                    <strong className="text-foreground">Enroll now introductory offer.</strong> We will meet twice a month for an hour and a half filled sessions to help you grow and develop your purpose.
+                  </p>
+                  <p>
+                    <a
+                      href="https://buy.stripe.com/9B628r0dt3yDg4cfUL8bS03"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold text-primary underline underline-offset-2 hover:text-primary/80"
+                      data-testid="link-get-started-ltn"
+                    >
+                      Click here to get started.
+                    </a>
+                  </p>
+                </div>
                 <Button asChild>
                   <a 
                     href="https://www.skool.com/life-transformation-network-2320/classroom" 
