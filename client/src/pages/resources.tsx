@@ -47,6 +47,7 @@ const resources = [
     link: "#",
     cta: "Coming Soon",
     internal: true,
+    showLtnLinks: true,
   },
   {
     id: "free-files",
@@ -56,6 +57,7 @@ const resources = [
     link: "#",
     cta: "Coming Soon",
     internal: true,
+    showLtnLinks: true,
   },
   {
     id: "free-tips",
@@ -65,6 +67,7 @@ const resources = [
     link: "#",
     cta: "Coming Soon",
     internal: true,
+    showLtnLinks: true,
   },
   {
     id: "free-book-content",
@@ -74,6 +77,7 @@ const resources = [
     link: "#",
     cta: "Coming Soon",
     internal: true,
+    showLtnLinks: true,
   },
 ];
 
@@ -111,9 +115,41 @@ export default function Resources() {
                 <h2 className="text-lg font-bold text-foreground mb-2">
                   {resource.title}
                 </h2>
-                <p className="text-sm text-muted-foreground mb-6 flex-1">
+                <p className="text-sm text-muted-foreground mb-4">
                   {resource.description}
                 </p>
+                {resource.showLtnLinks && (
+                  <div className="mb-4 text-sm text-muted-foreground flex-1">
+                    <p className="mb-2">
+                      Join the LIFE Transformation Network, a community of learning and advancing for your brighter future.
+                    </p>
+                    <ul className="list-disc list-inside space-y-1">
+                      <li>
+                        <a
+                          href="https://www.skool.com/life-transformation-network-2320/about"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary underline underline-offset-2 hover:text-primary/80"
+                          data-testid={`link-about-ltn-${resource.id}`}
+                        >
+                          About LTN
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.skool.com/life-transformation-network-2320"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary underline underline-offset-2 hover:text-primary/80"
+                          data-testid={`link-ltn-community-${resource.id}`}
+                        >
+                          LTN Community
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                )}
+                {!resource.showLtnLinks && <div className="flex-1" />}
                 {resource.internal ? (
                   <Button variant="outline" asChild className="w-full">
                     <a href={resource.link} data-testid={`button-resource-${resource.id}`}>
