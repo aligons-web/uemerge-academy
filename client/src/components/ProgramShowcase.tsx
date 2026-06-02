@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import ltnLogo from "@assets/ltnlogopng_1766601258373.png";
-import ltwCover from "@assets/ltwCover_1766601258374.jpg";
+import ltwCover from "@assets/newcovertouse_1780441799172.png";
 
 export function ProgramShowcase() {
   return (

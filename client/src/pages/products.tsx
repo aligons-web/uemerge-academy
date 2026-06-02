@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
-import ltwCover from "@assets/ltwCover_1766601258374.jpg";
+import ltwCover from "@assets/newcovertouse_1780441799172.png";
 import uypCover from "@assets/uypbkcvr2025_1766601258374.jpg";
 import ltnLogo from "@assets/ltnlogopng_1766601258373.png";
 
