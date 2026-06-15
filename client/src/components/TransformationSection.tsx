@@ -1,12 +1,13 @@
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Link } from "wouter";
 import gradientImg from "@assets/gradient_1781558709404.png";
+import stuckImg from "@assets/stuck_1781560530057.png";
+import clarityImg from "@assets/clarity_1781560530056.png";
+import blueprintImg from "@assets/blueprint_1781560530056.png";
 
 const tags = [
-  { label: "Feeling stuck", number: "01" },
-  { label: "Desiring more", number: "02" },
-  { label: "Seeking direction", number: "03" },
+  { img: stuckImg, alt: "01. Feeling Stuck" },
+  { img: clarityImg, alt: "02. Seeking Clarity" },
+  { img: blueprintImg, alt: "03. Building Transformation" },
 ];
 
 export function TransformationSection() {
@@ -45,14 +46,13 @@ export function TransformationSection() {
           
           <div className="flex flex-col gap-3">
             {tags.map((tag) => (
-              <div
-                key={tag.label}
-                className="flex items-center gap-3 bg-primary rounded-md p-4 hover-elevate"
-                data-testid={`tag-${tag.label.toLowerCase().replace(/\s+/g, '-')}`}
-              >
-                <span className="text-sm text-white font-medium">{tag.number}.</span>
-                <span className="font-semibold text-white">{tag.label}</span>
-              </div>
+              <img
+                key={tag.alt}
+                src={tag.img}
+                alt={tag.alt}
+                className="w-full h-auto rounded-md"
+                data-testid={`tag-${tag.alt.toLowerCase().replace(/\s+/g, '-')}`}
+              />
             ))}
           </div>
         </div>
