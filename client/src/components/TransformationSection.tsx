@@ -34,7 +34,7 @@ export function TransformationSection() {
               Let go of doubt. Step forward with intention.
             </h2>
             <Button asChild size="lg" data-testid="button-challenge-signup">
-              <a href="https://786bb9df.sibforms.com/serve/MUIFABPJ7sL_tcsdYF40O_tj0Xexk66kg5gYWZJsoOFPPR_zdKpFOqwGjmiyurtwSnBBAVAkHlm2tNzqhyxKjd4_xgFSlH7q1jQcFnhS4WsGdYQAF65oyYOLptFc3moHbBahfemKYO0a-u05ElTtNevEzX3U_BvcjYDmv8G46I6Sgv9VMy_IWFz71awXnPVPj64ivGrc0jgsfBcOlw==" target="_blank" rel="noopener noreferrer">3-Day Challenge Sign-Up</a>
+              <a href="https://www.skool.com/life-transformation-network-2320" target="_blank" rel="noopener noreferrer">Join the Community</a>
             </Button>
           </div>
           
