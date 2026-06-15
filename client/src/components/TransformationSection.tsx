@@ -13,7 +13,7 @@ export function TransformationSection() {
   return (
     <section
       className="px-4 py-16 md:py-24"
-      style={{ backgroundImage: `url(${gradientImg})`, backgroundRepeat: "repeat", backgroundSize: "auto" }}
+      style={{ backgroundImage: `url(${gradientImg})`, backgroundRepeat: "repeat-x", backgroundSize: "auto" }}
       data-testid="section-transformation"
     >
       <div className="max-w-4xl mx-auto">
