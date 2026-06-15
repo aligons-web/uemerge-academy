@@ -12,11 +12,19 @@ const tags = [
 export function TransformationSection() {
   return (
     <section
-      className="px-4 py-16 md:py-24"
-      style={{ backgroundImage: `url(${gradientImg})`, backgroundRepeat: "repeat-x", backgroundSize: "auto" }}
+      className="px-4"
+      style={{ backgroundColor: "#efefef" }}
       data-testid="section-transformation"
     >
-      <div className="max-w-4xl mx-auto">
+      <div
+        style={{
+          backgroundImage: `url(${gradientImg})`,
+          backgroundRepeat: "repeat-x",
+          backgroundSize: "auto",
+          height: "80px",
+        }}
+      />
+      <div className="max-w-4xl mx-auto py-16 md:py-24">
         <div className="grid lg:grid-cols-3 gap-8 items-start">
           <div className="lg:col-span-2">
             <h2 
@@ -57,6 +65,15 @@ export function TransformationSection() {
           </div>
         </div>
       </div>
+      <div
+        style={{
+          backgroundImage: `url(${gradientImg})`,
+          backgroundRepeat: "repeat-x",
+          backgroundSize: "auto",
+          height: "80px",
+          transform: "scaleY(-1)",
+        }}
+      />
     </section>
   );
 }
