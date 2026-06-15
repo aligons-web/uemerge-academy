@@ -10,7 +10,7 @@ const tags = [
 
 export function TransformationSection() {
   return (
-    <section className="py-16 md:py-24 px-4 bg-background" data-testid="section-transformation">
+    <section className="py-16 md:py-24 px-4" style={{ backgroundColor: "#b7bb77" }} data-testid="section-transformation">
       <div className="max-w-4xl mx-auto">
         <div className="grid lg:grid-cols-3 gap-8 items-start">
           <div className="lg:col-span-2">
