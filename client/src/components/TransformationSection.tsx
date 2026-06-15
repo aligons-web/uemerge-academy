@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import gradientImg from "@assets/gradient_1781558357864.png";
+import gradientImg from "@assets/gradient_1781558709404.png";
 
 const tags = [
   { label: "Feeling stuck", number: "01" },
@@ -11,8 +11,11 @@ const tags = [
 
 export function TransformationSection() {
   return (
-    <section className="px-4 pb-16 md:pb-24" style={{ backgroundColor: "#efefef" }} data-testid="section-transformation">
-      <img src={gradientImg} alt="" className="w-full h-auto block mb-10" aria-hidden="true" />
+    <section
+      className="px-4 py-16 md:py-24"
+      style={{ backgroundImage: `url(${gradientImg})`, backgroundRepeat: "repeat", backgroundSize: "auto" }}
+      data-testid="section-transformation"
+    >
       <div className="max-w-4xl mx-auto">
         <div className="grid lg:grid-cols-3 gap-8 items-start">
           <div className="lg:col-span-2">
