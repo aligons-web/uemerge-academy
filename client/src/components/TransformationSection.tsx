@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import gradientImg from "@assets/gradient_1781558709404.png";
-import stuckImg from "@assets/stuck_1781560530057.png";
+import stuckImg from "@assets/stuck_1781564302009.png";
 import clarityImg from "@assets/clarity_1781560530056.png";
 import blueprintImg from "@assets/blueprint_1781560530056.png";
 
