@@ -16,20 +16,20 @@ export function TransformationSection() {
           <div className="lg:col-span-2">
             <h2 
               className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6 leading-tight"
-              style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "'GFS Didot', 'Didot', 'Bodoni MT', 'Playfair Display', serif" }}
               data-testid="text-transformation-headline"
             >
               You did everything right—yet something still feels missing.
             </h2>
             <h2 
               className="text-lg md:text-xl text-black dark:text-black leading-relaxed mb-6"
-              style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "'Nunito Sans', 'Avenir Next', 'Proxima Nova', sans-serif", fontWeight: 600 }}
             >
               If you're stuck between who you are and who you know you're meant to become, this is your time to take action!
             </h2>
             <h2 
               className="text-lg md:text-xl text-foreground mb-6"
-              style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "'Nunito Sans', 'Avenir Next', 'Proxima Nova', sans-serif", fontWeight: 600 }}
             >
               Let go of doubt. Step forward with intention.
             </h2>
