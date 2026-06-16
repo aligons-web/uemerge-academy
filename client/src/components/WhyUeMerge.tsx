@@ -2,11 +2,21 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "wouter";
 import uypCover from "@assets/uypbkcvr2025_1766601258374.jpg";
-import gradient2Img from "@assets/gradient2_1781573252150.png";
+import gradient2Img from "@assets/gradient2_1781573463304.png";
 
 export function WhyUeMerge() {
   return (
-    <section className="pt-16 md:pt-20 px-4 bg-background" data-testid="section-why-uemerge">
+    <section
+      className="pt-16 md:pt-20 px-4"
+      style={{
+        backgroundImage: `url(${gradient2Img})`,
+        backgroundRepeat: "repeat-x",
+        backgroundPosition: "bottom",
+        backgroundSize: "auto",
+        backgroundColor: "var(--background)",
+      }}
+      data-testid="section-why-uemerge"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 
@@ -69,15 +79,6 @@ export function WhyUeMerge() {
           </div>
         </Card>
       </div>
-      <div
-        style={{
-          backgroundImage: `url(${gradient2Img})`,
-          backgroundRepeat: "repeat-x",
-          backgroundSize: "auto",
-          height: "80px",
-          marginTop: "4rem",
-        }}
-      />
     </section>
   );
 }
